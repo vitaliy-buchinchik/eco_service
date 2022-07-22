@@ -11,6 +11,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   background-color: #f1f1f1;
+  margin: 0 auto;
 }
 
 .temp_google_form_body {
@@ -23,6 +24,11 @@ body {
 
 .header {
   background-color: #fff;
+  position: fixed;
+  height: 80px;
+  width: 100vw;
+  z-index: 10;
+  top: 0;
 }
 
 .container {
@@ -35,7 +41,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 90px;
+  height: 80px;
 }
 
 .header_logo {
@@ -197,7 +203,7 @@ body {
 
 .introduction_info {
   position: absolute;
-  top: 50px;
+  top: 120px;
   padding: 20px;
   max-width: 700px;
   border-radius: 10px;
@@ -348,6 +354,7 @@ body {
 .slide_image {
   border: 1px solid green;
   border-radius: 5px;
+  width: 160px;
 }
 
 /*--------------------------------------------------------------------*/
@@ -378,7 +385,7 @@ body {
   margin-bottom: 10px;
 }
 
-.zurich_wrapper {
+.kiev_wrapper {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
